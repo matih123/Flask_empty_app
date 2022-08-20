@@ -1,0 +1,14 @@
+#------------------------------#
+#----Instalacja na serverze----#
+#------------------------------#
+
+#------------------------------------#
+#----Zmiana uprawnień na serverze----#
+#------------------------------------#
+
+#-------------------------------#
+#----Testowanie na windowsie----#
+#-------------------------------#
+cd <projekt> && set FLASK_APP=run.py && set FLASK_DEBUG=1
+.\venv\Scripts\activate
+flask run --host=0.0.0.0
